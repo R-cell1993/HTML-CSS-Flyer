@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- Section 1-->
+<html>
+  <header>Meet Guidebook</header>
+    <body>
+      <p> Discover Hundreds of local spots recommended by Airbnb hosts</p>
+      <ul class="citys-container">
+      <li class="SanFrancisco">San Francisco</li>
+      <li class="NewYork">New York</li>
+      <li class="London">London</li></ul> 
+      <div class="button">See All Guidebooks</div>
+  </body>
+  </html>
+<!-- Section 2-->
+  <html>
+  <header>Just For the Weekend</header>
+    <body>
+      <p> Discover new, inspiring places close to home</p>
+      <ul class="citys-container2">
+      <li class="Napa">Napa</li>
+      <li class="Sonoma">Sonoma</li>
+      <li class="SanFrancisco2">San Francisco</li></ul> 
+      <div class="button">See All Destinations</div>
+  </body>
+  </html>
+
+CSS
+
+/*-- Section 1 --*/
+
+
+header{
+  text-align: center;
+  color: rgb(89,92,96);
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+body{
+  background-color: #ebefec;
+}
+p{
+  text-align: center;
+  color: rgb(89,92,96);
+  font-size: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.citys-container{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  text-align:center;
+  padding-top: 20px;
+}
+.London{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg );
+  height:500px;
+  width:550px;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height:400px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+.NewYork{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg);
+  height:500px;
+  width:550px;
+  text-align: center;
+  line-height:400px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+.SanFrancisco{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg);
+  height:500px;
+  width:550px;
+  text-align: center;
+  line-height:400px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/*-- Section 2 --*/
+
+.Napa{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg);
+  height:500px;
+  width:550px;
+  text-align: center;
+  line-height:400px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+.Sonoma{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg);
+  height:500px;
+  width:550px;
+  text-align: center;
+  line-height:400px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+.SanFrancisco2{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg);
+  height:500px;
+  width:550px;
+  text-align: center;
+  line-height:400px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
+.citys-container2{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  text-align:center;
+}
+
+.button{
+ text-align:center;
+ color: rgb(89,92,96);
+ font-family: 'Roboto', Arial, sans-serif;
+ font-weight: bold;
+ margin: 50px auto;
+ padding: 10px 50px;
+ font-size: 18px;
+ width: 300px;
+ border: solid;
+ background-color:white; 
+}
